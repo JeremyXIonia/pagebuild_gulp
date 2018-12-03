@@ -94,8 +94,8 @@ gulp.task('browser-sync', () => {
             baseDir: './dist'
         },
         port: 8091,
-        notify: false, //刷新是否提示
-        open: false //是否自动打开页面
+        notify: false,
+        open: false
     });
 
 });
