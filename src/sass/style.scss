@@ -1,0 +1,17 @@
+@import "module/base";
+@import "module/function";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    transition: all ease 300ms;
+}
